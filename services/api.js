@@ -8,7 +8,7 @@ export const fetchActivities = async () => {
     const tokenRes = await axios.post(`${BASE_URL}/public/token`, {
       studentId: "E0123031",
       set: "setB",
-      password: "454015",
+      password: "896201",
     });
 
     const token = tokenRes.data.token;
